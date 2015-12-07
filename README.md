@@ -1,2 +1,4 @@
 # boggle_recursion
 simple Java command line program demonstrating a recursive search algorithm
+
+Completed as part of my Java programming course, the program generates a boggle board and asks the user for a word that they think is on the board.  The program then calls a recursive search algorithm to check if the word can indeed be found on the board by passing the word as a character array and specifying the search area.  The problem prompt suggested using separate methods to first search the 5x5 board then the 2x2 or 3x3 area around a found letter, but I saw no reason for multiple methods.  The program changes the case of a found letter so that the search won't use the same board letter twice (changing it back if the letter doesn't lead to the next in the word).  If the word the user has entered is found the board is displayed showing the found in it's lowercase form.  The program doesn't check for a word's validity or keep track of score.
